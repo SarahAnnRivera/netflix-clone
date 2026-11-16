@@ -62,6 +62,57 @@ This project was developed for educational and portfolio purposes using a tutori
 
 It is not affiliated with or endorsed by Netflix.
 
+
+## Prerequisites & Installation
+
+### Prerequisites
+
+- Node.js 20.19+ or 22.12+ (Vite 8 requirement)
+- npm
+- Git
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/SarahAnnRivera/netflix-clone.git
+   ```
+
+2. Navigate into the project directory:
+
+   ```bash
+   cd netflix-clone
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Configure Firebase using the environment
+   variables required by the application.
+
+5. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+6. Open the local URL displayed in your terminal,
+   typically:
+
+   http://localhost:5173
+
+### Available Scripts
+
+- `npm run dev` — Start the development server
+- `npm run build` — Create a production build
+- `npm run preview` — Preview the production build
+- `npm run lint` — Run Oxlint
+
+
 ## Developer
 
 **Sarah Rivera Balcazar**
