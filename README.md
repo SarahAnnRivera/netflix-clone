@@ -91,8 +91,15 @@ It is not affiliated with or endorsed by Netflix.
    npm install
    ```
 
-4. Configure Firebase using the environment
-   variables required by the application.
+
+4. Create a `.env.local` file in the project root
+   using `.env.example` as a template.
+
+   Add your own Firebase project configuration values.
+
+   Firebase Authentication must also be configured
+   in the Firebase console for the application to work.
+
 
 5. Start the development server:
 
